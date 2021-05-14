@@ -1,0 +1,15 @@
+swarm-01 ansible_ssh_host=195.201.33.135
+
+#[local]
+#localhost   ansible_connection=local
+
+[docker_engine]
+swarm-01
+
+[docker_swarm_manager]
+swarm-01 swarm_labels='["manager", "docker", "deploy"]'
+
+[docker_swarm_worker]
+
+[builder]
+swarm-01

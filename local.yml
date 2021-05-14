@@ -1,0 +1,13 @@
+- hosts: localhost
+  remote_user: root
+  gather_facts: yes
+  roles:
+    - {
+        role: toni.base,
+        configure_ipv4_hostname: true,
+        configure_ipv6_hostname: false,
+        configure_firewall: false
+      }
+    - {
+      role: toni.docker
+      }

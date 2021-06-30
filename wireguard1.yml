@@ -1,0 +1,57 @@
+- hosts: wg
+  remote_user: root
+  gather_facts: yes
+  roles:
+    - {
+        role: toni.base,
+        configure_ipv4_hostname: true,
+        configure_ipv6_hostname: false,
+        reset_ufw: false,
+        configure_firewall: 'yes' # deny all except ssh with pubkey 
+      }
+
+- name: Wireguard server
+  hosts: wg_server
+  become: yes
+  vars:
+    configure_firewall: true
+    mode: "setup"
+    wg_server_ip: 10.6.0.1
+    wg_subnet: 10.6.0.0
+    wg_listen_port: "51821"
+    wg_interface: wg1    
+  roles:
+    - toni.wserver
+
+- name: Wireguard clients
+  hosts: wg_clients
+  become: yes
+  vars:
+    configure_firewall: true
+    wg_interface: wg1
+    wg_server_ip: "10.6.0.1"    
+    mode: "setup"
+  roles:
+    - toni.wclient
+
+- name: Wireguard
+  hosts: wg_server
+  become: yes
+  vars:
+    mode: "start"
+    wg_server_ip: 10.6.0.1
+    wg_subnet: 10.6.0.0
+    wg_listen_port: "51821"
+    wg_interface: wg1
+  roles:
+    - toni.wserver      
+
+- name: Start wireguard client
+  hosts: wg_clients
+  become: yes
+  vars:
+    mode: "start"
+    wg_interface: wg1
+    wg_server_ip: "10.6.0.1"    
+  roles:
+     - toni.wclient    

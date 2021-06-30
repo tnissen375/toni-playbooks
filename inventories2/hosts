@@ -1,0 +1,15 @@
+wg2 ansible_ssh_host=162.55.53.218
+wg4 ansible_ssh_host=162.55.183.249
+wg5 ansible_ssh_host=162.55.183.250
+
+[wg]
+wg2
+wg4
+wg5
+
+[wg_server]
+wg4
+
+[wg_clients]
+wg2 wg_client_ip=10.6.0.2
+wg5 wg_client_ip=10.6.0.3

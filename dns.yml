@@ -1,0 +1,11 @@
+- hosts: localhost
+  remote_user: root
+  gather_facts: yes
+  tags: [ dns ]
+  roles:
+    - {
+        role: toni.dns,
+        zone: yd2m.de,
+        record_name: "@",
+        record_value: 176.9.120.60
+      }

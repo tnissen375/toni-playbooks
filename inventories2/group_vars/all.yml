@@ -2,8 +2,7 @@
 #All hosts with python 3 // Get rid of deprecation warning
 ansible_python_interpreter: /usr/bin/python3
 
-domain: "yd2m.de"
-lets_encrypt_mail: "jidumailer@gmail.com"
+domain: "toni-media.com"
 
 #
 # Role base

@@ -1,0 +1,32 @@
+- hosts: swarm-01
+  remote_user: root
+  gather_facts: yes
+  roles:
+    - {
+        role: toni.base,
+        configure_ipv4_hostname: false,
+        configure_ipv6_hostname: true,
+        configure_firewall: 'true'
+      }
+    - {
+      role: toni.docker
+      docker_network_driver: 'overlay', #trigger swarm
+      swarm_interface: "{{ ansible_default_ipv4['interface'] }}" #default wg0
+      }
+    - {
+      role: toni.openresty,
+      #docker_network_host: True,
+      nginx_network_name: "nginx_net",
+      nginx_network_driver: "overlay",
+      # docker_network_encrypted: 'true',
+      nginx_run_as: "stack",
+      force_images: "True"
+      }
+    - { 
+      role: toni.corteza,
+      letsencrypt_email: "", # <- insert mailadress here
+      nginx_network_name: "nginx_net",
+      nginx_run_as: "stack",
+      force_images: "false",
+      nginx_domain: "toni-media.com" #  without subdomain
+      }

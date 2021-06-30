@@ -1,4 +1,23 @@
-swarm-01 ansible_ssh_host=195.201.33.135
+swarm-01 ansible_ssh_host=162.55.53.218
+#157.90.27.108
+wg1 ansible_ssh_host=159.69.109.52
+wg2 ansible_ssh_host=162.55.53.218
+wg3 ansible_ssh_host=162.55.177.151
+
+[wg]
+wg1
+wg2
+wg3
+
+[wg_server]
+wg1
+
+[wg_clients]
+wg2 wg_client_ip=10.8.0.2
+wg3 wg_client_ip=10.8.0.3
+
+[builder]
+build.toni-media.de
 
 #[local]
 #localhost   ansible_connection=local

@@ -1,0 +1,11 @@
+- hosts: domains 
+  become: True
+  gather_facts: yes
+  tasks:
+  - name: Create wildcards
+    import_role: { name: toni.certificates, tasks_from: legodomains }
+  # vars:
+  #   lego_wildcards:
+  #     - { domain: "govac.de" }
+  #     - { domain: "hyconcept.de" }
+

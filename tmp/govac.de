@@ -1,0 +1,1335 @@
+_ansible_facts_gathered: true
+ansible_all_ipv4_addresses:
+- 20.10.11.1
+- 20.10.10.1
+- 176.9.120.60
+- 172.17.0.1
+ansible_all_ipv6_addresses:
+- fe80::c09e:87ff:fe86:93da
+- fe80::aaa1:59ff:fe15:54f9
+ansible_apparmor:
+  status: enabled
+ansible_architecture: x86_64
+ansible_bios_date: 01/15/2020
+ansible_bios_vendor: American Megatrends Inc.
+ansible_bios_version: H3.90B
+ansible_board_asset_tag: NA
+ansible_board_name: B450M Pro4
+ansible_board_serial: M80-CC009100478
+ansible_board_vendor: ASRock
+ansible_board_version: NA
+ansible_br_1199b2a62948:
+  active: false
+  device: br-1199b2a62948
+  id: 8000.024248c6d34a
+  interfaces: []
+  ipv4:
+    address: 20.10.10.1
+    broadcast: 20.10.10.255
+    netmask: 255.255.255.0
+    network: 20.10.10.0
+  macaddress: 02:42:48:c6:d3:4a
+  mtu: 1500
+  promisc: false
+  stp: false
+  type: bridge
+ansible_br_1ee02a74e13c:
+  active: false
+  device: br-1ee02a74e13c
+  id: 8000.024279a04015
+  interfaces: []
+  ipv4:
+    address: 20.10.11.1
+    broadcast: 20.10.11.255
+    netmask: 255.255.255.0
+    network: 20.10.11.0
+  macaddress: 02:42:79:a0:40:15
+  mtu: 1500
+  promisc: false
+  stp: false
+  type: bridge
+ansible_chassis_asset_tag: To Be Filled By O.E.M.
+ansible_chassis_serial: To Be Filled By O.E.M.
+ansible_chassis_vendor: To Be Filled By O.E.M.
+ansible_chassis_version: To Be Filled By O.E.M.
+ansible_cmdline:
+  BOOT_IMAGE: /vmlinuz-5.4.73-1-pve
+  consoleblank: '0'
+  nmi_watchdog: '0'
+  nomodeset: true
+  ro: true
+  root: /dev/mapper/pve-root
+ansible_date_time:
+  date: '2021-07-15'
+  day: '15'
+  epoch: '1626364643'
+  hour: '17'
+  iso8601: '2021-07-15T15:57:23Z'
+  iso8601_basic: 20210715T175723606375
+  iso8601_basic_short: 20210715T175723
+  iso8601_micro: '2021-07-15T15:57:23.606375Z'
+  minute: '57'
+  month: '07'
+  second: '23'
+  time: '17:57:23'
+  tz: CEST
+  tz_offset: '+0200'
+  weekday: Thursday
+  weekday_number: '4'
+  weeknumber: '28'
+  year: '2021'
+ansible_default_ipv4:
+  address: 176.9.120.60
+  alias: vmbr0
+  broadcast: ''
+  gateway: 176.9.120.33
+  interface: vmbr0
+  macaddress: a8:a1:59:15:54:f9
+  mtu: 1500
+  netmask: 255.255.255.255
+  network: 176.9.120.60
+  type: bridge
+ansible_default_ipv6: {}
+ansible_device_links:
+  ids:
+    dm-0:
+    - dm-name-pve-root
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyViygh3qvQJPdipEc5paV0SOdtIRd3xSk
+    dm-1:
+    - dm-name-pve-swap
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyUCeGcxoewBSsdzAm77aKl6XI9BbZaWo8
+    dm-10:
+    - dm-name-pve-vm--103--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goymFZAc4U4R17Fil3ElJg9RXgW845Em3Vo
+    dm-11:
+    - dm-name-pve-vm--104--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy01VMOm7nN63I4AgSw53ldSicOPFDJEcf
+    dm-12:
+    - dm-name-pve-vm--105--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyRVGK23u3dxI5mXpxYGzRvPZjKr2Axdfh
+    dm-13:
+    - dm-name-pve-vm--107--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyZ7GG1kvdkEVqTdL2vsYFUHwWglSN001F
+    dm-14:
+    - dm-name-pve-vm--108--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyU6d6Bk7bS4yTwGwwO1J7FFoPwDM6IGey
+    dm-15:
+    - dm-name-pve-vm--109--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy3Qmlwdmb1mMAbN8A1uuF0D2SHb3icD6i
+    dm-16:
+    - dm-name-pve-vm--110--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyABzIxnRwusLKnE07jIDZhleyRV19gEeP
+    dm-17:
+    - dm-name-pve-vm--111--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goynszpo6t2qVH2BXbJ5A3ldLwNjdjfFedY
+    dm-6:
+    - dm-name-pve-vm--106--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyTx4UeU47oEGFZQElEVu2bEjyotkT9ldB
+    dm-7:
+    - dm-name-pve-vm--101--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy6w7fn5LddOGBoUfooRAV9ibS8TcJ48g1
+    dm-8:
+    - dm-name-pve-vm--100--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy5aS7xDT4ejCB1bVjs0NqM8qsIGDddANR
+    dm-9:
+    - dm-name-pve-vm--102--disk--0
+    - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyHb9PXBqTD2J0qqo1eeZnl494uu1OWMat
+    sda:
+    - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB
+    - wwn-0x500003984bc818aa
+    sda1:
+    - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB-part1
+    - wwn-0x500003984bc818aa-part1
+    sda2:
+    - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB-part2
+    - lvm-pv-uuid-12SH5E-AG9Z-pI2d-w8L6-5UA8-Xmml-rMJeYq
+    - wwn-0x500003984bc818aa-part2
+    sdb:
+    - ata-TOSHIBA_MG04ACA200EY_X71FK0BRF7QB
+    - wwn-0x500003981be0015a
+  labels: {}
+  masters:
+    dm-2:
+    - dm-4
+    dm-3:
+    - dm-4
+    dm-4:
+    - dm-10
+    - dm-11
+    - dm-12
+    - dm-13
+    - dm-14
+    - dm-15
+    - dm-16
+    - dm-17
+    - dm-5
+    - dm-6
+    - dm-7
+    - dm-8
+    - dm-9
+    sda2:
+    - dm-0
+    - dm-1
+    - dm-2
+    - dm-3
+  uuids:
+    dm-0:
+    - 1568ae24-1040-4e0f-8e0b-28731697c1a4
+    dm-1:
+    - 2e8a99a8-c5ec-4ed1-9936-7f75495c1534
+    sda1:
+    - b56b32fe-35a7-4cd1-85e4-78d00504f6b9
+ansible_devices:
+  dm-0:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-root
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyViygh3qvQJPdipEc5paV0SOdtIRd3xSk
+      labels: []
+      masters: []
+      uuids:
+      - 1568ae24-1040-4e0f-8e0b-28731697c1a4
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-1:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-swap
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyUCeGcxoewBSsdzAm77aKl6XI9BbZaWo8
+      labels: []
+      masters: []
+      uuids:
+      - 2e8a99a8-c5ec-4ed1-9936-7f75495c1534
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '16777216'
+    sectorsize: '512'
+    size: 8.00 GB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-10:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--103--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goymFZAc4U4R17Fil3ElJg9RXgW845Em3Vo
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '419430400'
+    sectorsize: '512'
+    size: 200.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-11:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--104--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy01VMOm7nN63I4AgSw53ldSicOPFDJEcf
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '419430400'
+    sectorsize: '512'
+    size: 200.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-12:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--105--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyRVGK23u3dxI5mXpxYGzRvPZjKr2Axdfh
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '419430400'
+    sectorsize: '512'
+    size: 200.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-13:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--107--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyZ7GG1kvdkEVqTdL2vsYFUHwWglSN001F
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '67108864'
+    sectorsize: '512'
+    size: 32.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-14:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--108--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyU6d6Bk7bS4yTwGwwO1J7FFoPwDM6IGey
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-15:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--109--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy3Qmlwdmb1mMAbN8A1uuF0D2SHb3icD6i
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-16:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--110--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyABzIxnRwusLKnE07jIDZhleyRV19gEeP
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-17:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--111--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goynszpo6t2qVH2BXbJ5A3ldLwNjdjfFedY
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '629145600'
+    sectorsize: '512'
+    size: 300.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-2:
+    holders:
+    - pve-data-tpool
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters:
+      - dm-4
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '3563520'
+    sectorsize: '512'
+    size: 1.70 GB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-3:
+    holders:
+    - pve-data-tpool
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters:
+      - dm-4
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '3641638912'
+    sectorsize: '512'
+    size: 1.70 TB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-4:
+    holders:
+    - pve-vm--103--disk--0
+    - pve-vm--100--disk--0
+    - pve-vm--111--disk--0
+    - pve-vm--106--disk--0
+    - pve-vm--109--disk--0
+    - pve-vm--107--disk--0
+    - pve-vm--104--disk--0
+    - pve-vm--102--disk--0
+    - pve-vm--101--disk--0
+    - pve-vm--110--disk--0
+    - pve-data
+    - pve-vm--108--disk--0
+    - pve-vm--105--disk--0
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters:
+      - dm-10
+      - dm-11
+      - dm-12
+      - dm-13
+      - dm-14
+      - dm-15
+      - dm-16
+      - dm-17
+      - dm-5
+      - dm-6
+      - dm-7
+      - dm-8
+      - dm-9
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '3641638912'
+    sectorsize: '512'
+    size: 1.70 TB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-5:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '3641638912'
+    sectorsize: '512'
+    size: 1.70 TB
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  dm-6:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--106--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyTx4UeU47oEGFZQElEVu2bEjyotkT9ldB
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-7:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--101--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy6w7fn5LddOGBoUfooRAV9ibS8TcJ48g1
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-8:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--100--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goy5aS7xDT4ejCB1bVjs0NqM8qsIGDddANR
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  dm-9:
+    holders: []
+    host: ''
+    links:
+      ids:
+      - dm-name-pve-vm--102--disk--0
+      - dm-uuid-LVM-LTw94gVSj1R12S916DDD7ZaERNDE6goyHb9PXBqTD2J0qqo1eeZnl494uu1OWMat
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: ''
+    sectors: '209715200'
+    sectorsize: '512'
+    size: 100.00 GB
+    support_discard: '65536'
+    vendor: null
+    virtual: 1
+  loop0:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop1:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop2:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop3:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop4:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop5:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop6:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop7:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  sda:
+    holders: []
+    host: 'SATA controller: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset
+      SATA Controller (rev 01)'
+    links:
+      ids:
+      - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB
+      - wwn-0x500003984bc818aa
+      labels: []
+      masters: []
+      uuids: []
+    model: TOSHIBA MG04ACA2
+    partitions:
+      sda1:
+        holders: []
+        links:
+          ids:
+          - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB-part1
+          - wwn-0x500003984bc818aa-part1
+          labels: []
+          masters: []
+          uuids:
+          - b56b32fe-35a7-4cd1-85e4-78d00504f6b9
+        sectors: '2097152'
+        sectorsize: 512
+        size: 1.00 GB
+        start: '2048'
+        uuid: b56b32fe-35a7-4cd1-85e4-78d00504f6b9
+      sda2:
+        holders:
+        - pve-swap
+        - pve-data_tmeta
+        - pve-root
+        - pve-data_tdata
+        links:
+          ids:
+          - ata-TOSHIBA_MG04ACA200EY_18KCK08VF7QB-part2
+          - lvm-pv-uuid-12SH5E-AG9Z-pI2d-w8L6-5UA8-Xmml-rMJeYq
+          - wwn-0x500003984bc818aa-part2
+          labels: []
+          masters:
+          - dm-0
+          - dm-1
+          - dm-2
+          - dm-3
+          uuids: []
+        sectors: '3904927920'
+        sectorsize: 512
+        size: 1.82 TB
+        start: '2099200'
+        uuid: null
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '3907029168'
+    sectorsize: '512'
+    size: 1.82 TB
+    support_discard: '0'
+    vendor: ATA
+    virtual: 1
+    wwn: '0x500003984bc818aa'
+  sdb:
+    holders: []
+    host: 'SATA controller: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset
+      SATA Controller (rev 01)'
+    links:
+      ids:
+      - ata-TOSHIBA_MG04ACA200EY_X71FK0BRF7QB
+      - wwn-0x500003981be0015a
+      labels: []
+      masters: []
+      uuids: []
+    model: TOSHIBA MG04ACA2
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '3907029168'
+    sectorsize: '512'
+    size: 1.82 TB
+    support_discard: '0'
+    vendor: ATA
+    virtual: 1
+    wwn: '0x500003981be0015a'
+ansible_distribution: Debian
+ansible_distribution_file_parsed: true
+ansible_distribution_file_path: /etc/os-release
+ansible_distribution_file_variety: Debian
+ansible_distribution_major_version: '10'
+ansible_distribution_release: buster
+ansible_distribution_version: '10'
+ansible_dns:
+  nameservers:
+  - 213.133.100.100
+  - 213.133.98.98
+  - 213.133.99.99
+  - 2a01:4f8:0:1::add:1010
+  - 2a01:4f8:0:1::add:9999
+  - 2a01:4f8:0:1::add:9898
+ansible_docker0:
+  active: false
+  device: docker0
+  id: 8000.02429c07b0b2
+  interfaces: []
+  ipv4:
+    address: 172.17.0.1
+    broadcast: 172.17.255.255
+    netmask: 255.255.0.0
+    network: 172.17.0.0
+  macaddress: 02:42:9c:07:b0:b2
+  mtu: 1500
+  promisc: false
+  stp: false
+  type: bridge
+ansible_domain: govac.de
+ansible_effective_group_id: 0
+ansible_effective_user_id: 0
+ansible_enp4s0:
+  active: true
+  device: enp4s0
+  macaddress: a8:a1:59:15:54:f9
+  module: r8169
+  mtu: 1500
+  pciid: '0000:04:00.0'
+  promisc: true
+  speed: 1000
+  type: ether
+ansible_env:
+  HOME: /root
+  LANG: en_US.UTF-8
+  LANGUAGE: en_US:en
+  LOGNAME: root
+  LS_COLORS: ''
+  MAIL: /var/mail/root
+  PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  PWD: /root
+  SHELL: /bin/bash
+  SUDO_COMMAND: /bin/sh -c echo BECOME-SUCCESS-rnkxdzdslrsksuctvzthqcvygwhstgvz ;
+    /usr/bin/python3
+  SUDO_GID: '0'
+  SUDO_UID: '0'
+  SUDO_USER: root
+  TERM: unknown
+  USER: root
+ansible_fibre_channel_wwn: []
+ansible_fips: false
+ansible_form_factor: Desktop
+ansible_fqdn: prox.govac.de
+ansible_hostname: prox
+ansible_hostnqn: ''
+ansible_interfaces:
+- enp4s0
+- vmbr1
+- vmbr0
+- tap108i0
+- tap106i0
+- lo
+- br-1199b2a62948
+- tap111i0
+- docker0
+- br-1ee02a74e13c
+- tap101i1
+- tap101i0
+ansible_is_chroot: false
+ansible_iscsi_iqn: iqn.1993-08.org.debian:01:dffa3034ca
+ansible_kernel: 5.4.73-1-pve
+ansible_kernel_version: '#1 SMP PVE 5.4.73-1 (Mon, 16 Nov 2020 10:52:16 +0100)'
+ansible_lo:
+  active: true
+  device: lo
+  ipv4:
+    address: 127.0.0.1
+    broadcast: ''
+    netmask: 255.0.0.0
+    network: 127.0.0.0
+  ipv6:
+  - address: ::1
+    prefix: '128'
+    scope: host
+  mtu: 65536
+  promisc: false
+  type: loopback
+ansible_local: {}
+ansible_lsb:
+  codename: buster
+  description: Debian GNU/Linux 10 (buster)
+  id: Debian
+  major_release: '10'
+  release: '10'
+ansible_lvm:
+  lvs:
+    data:
+      size_g: '1736.47'
+      vg: pve
+    root:
+      size_g: '100.00'
+      vg: pve
+    swap:
+      size_g: '8.00'
+      vg: pve
+    vm-100-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-101-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-102-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-103-disk-0:
+      size_g: '200.00'
+      vg: pve
+    vm-104-disk-0:
+      size_g: '200.00'
+      vg: pve
+    vm-105-disk-0:
+      size_g: '200.00'
+      vg: pve
+    vm-106-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-107-disk-0:
+      size_g: '32.00'
+      vg: pve
+    vm-108-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-109-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-110-disk-0:
+      size_g: '100.00'
+      vg: pve
+    vm-111-disk-0:
+      size_g: '300.00'
+      vg: pve
+  pvs:
+    /dev/sda2:
+      free_g: '14.14'
+      size_g: '1862.01'
+      vg: pve
+  vgs:
+    pve:
+      free_g: '14.14'
+      num_lvs: '15'
+      num_pvs: '1'
+      size_g: '1862.01'
+ansible_machine: x86_64
+ansible_machine_id: 8d351cd43d86459e93b0103eece3ea87
+ansible_memfree_mb: 14635
+ansible_memory_mb:
+  nocache:
+    free: 30343
+    used: 33908
+  real:
+    free: 14635
+    total: 64251
+    used: 49616
+  swap:
+    cached: 0
+    free: 8191
+    total: 8191
+    used: 0
+ansible_memtotal_mb: 64251
+ansible_mounts:
+- block_available: 19966096
+  block_size: 4096
+  block_total: 25671918
+  block_used: 5705822
+  device: /dev/mapper/pve-root
+  fstype: ext4
+  inode_available: 6456069
+  inode_total: 6553600
+  inode_used: 97531
+  mount: /
+  options: rw,relatime
+  size_available: 81781129216
+  size_total: 105152176128
+  uuid: 1568ae24-1040-4e0f-8e0b-28731697c1a4
+- block_available: 214631
+  block_size: 4096
+  block_total: 249830
+  block_used: 35199
+  device: /dev/sda1
+  fstype: ext4
+  inode_available: 65192
+  inode_total: 65536
+  inode_used: 344
+  mount: /boot
+  options: rw,relatime
+  size_available: 879128576
+  size_total: 1023303680
+  uuid: b56b32fe-35a7-4cd1-85e4-78d00504f6b9
+- block_available: 0
+  block_size: 0
+  block_total: 0
+  block_used: 0
+  device: //u250455.your-storagebox.de/backup
+  fstype: cifs
+  inode_available: 0
+  inode_total: 0
+  inode_used: 0
+  mount: /mnt/bx10
+  options: rw,relatime,vers=3.1.1,cache=strict,username=u250455,uid=0,forceuid,gid=0,forcegid,addr=78.47.29.213,file_mode=0660,dir_mode=0770,seal,soft,nounix,serverino,mapposix,rsize=4194304,wsize=4194304,bsize=1048576,echo_interval=60,actimeo=1
+  size_available: 0
+  size_total: 0
+  uuid: N/A
+- block_available: 7674
+  block_size: 4096
+  block_total: 7680
+  block_used: 6
+  device: /dev/fuse
+  fstype: fuse
+  inode_available: 9952
+  inode_total: 10000
+  inode_used: 48
+  mount: /etc/pve
+  options: rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other
+  size_available: 31432704
+  size_total: 31457280
+  uuid: N/A
+ansible_nodename: prox
+ansible_os_family: Debian
+ansible_pkg_mgr: apt
+ansible_proc_cmdline:
+  BOOT_IMAGE: /vmlinuz-5.4.73-1-pve
+  consoleblank: '0'
+  nmi_watchdog: '0'
+  nomodeset: true
+  ro: true
+  root: /dev/mapper/pve-root
+ansible_processor:
+- '0'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '1'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '2'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '3'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '4'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '5'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '6'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '7'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '8'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '9'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '10'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+- '11'
+- AuthenticAMD
+- AMD Ryzen 5 3600 6-Core Processor
+ansible_processor_cores: 6
+ansible_processor_count: 1
+ansible_processor_nproc: 12
+ansible_processor_threads_per_core: 2
+ansible_processor_vcpus: 12
+ansible_product_name: To Be Filled By O.E.M.
+ansible_product_serial: To Be Filled By O.E.M.
+ansible_product_uuid: 1559a1a8-f954-0000-0000-000000000000
+ansible_product_version: To Be Filled By O.E.M.
+ansible_python:
+  executable: /usr/bin/python3
+  has_sslcontext: true
+  type: cpython
+  version:
+    major: 3
+    micro: 3
+    minor: 7
+    releaselevel: final
+    serial: 0
+  version_info:
+  - 3
+  - 7
+  - 3
+  - final
+  - 0
+ansible_python_version: 3.7.3
+ansible_real_group_id: 0
+ansible_real_user_id: 0
+ansible_selinux:
+  status: Missing selinux Python library
+ansible_selinux_python_present: false
+ansible_service_mgr: systemd
+ansible_ssh_host_key_ecdsa_public: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLU9V9HtaWSalUGpbR2wwlz9Qn2Y6uCtnBVYo3D8uA3LlmtCGL4R8lTP3Hejbe3ZYondK0OVSeu2G2Mj6Efd0Eo=
+ansible_ssh_host_key_ecdsa_public_keytype: ecdsa-sha2-nistp256
+ansible_ssh_host_key_ed25519_public: AAAAC3NzaC1lZDI1NTE5AAAAILUVecI/C2a05g+klP4nURubwJHC/2SWG0psoZYtWrmH
+ansible_ssh_host_key_ed25519_public_keytype: ssh-ed25519
+ansible_ssh_host_key_rsa_public: AAAAB3NzaC1yc2EAAAADAQABAAABAQDfgrOc2ybRBfNdBeMtiFbsdlnfni4wPmwMQ6rokEvQNwNQ8rH3DWvLXWriajnpKZqvqI9JknvipRxC+PKYPjunSM3fLYakyNqJEu3Lk/iitMNArn5gqRJWQ+zxq/kluzJCMDAGTMHYX3OZ1F/9pmX3PEHzYm8IULQ9POEc2748Qvk/Rudz4i0N3mZ+id2YbURlWE2fQcg/UxPAG8wS1z1Agk3LA7f0Zv/McQihR/mH1lmVG4uuO8dkuqLA2xXnFrBJe2MltS3nQOgX0O+cP/ud0kq0STKIxz9j0vm9mYUwavIVggYwXfyCN9YfGoo9x6+YkUVXMjThLybUQnQuTAmF
+ansible_ssh_host_key_rsa_public_keytype: ssh-rsa
+ansible_swapfree_mb: 8191
+ansible_swaptotal_mb: 8191
+ansible_system: Linux
+ansible_system_capabilities:
+- cap_chown
+- cap_dac_override
+- cap_dac_read_search
+- cap_fowner
+- cap_fsetid
+- cap_kill
+- cap_setgid
+- cap_setuid
+- cap_setpcap
+- cap_linux_immutable
+- cap_net_bind_service
+- cap_net_broadcast
+- cap_net_admin
+- cap_net_raw
+- cap_ipc_lock
+- cap_ipc_owner
+- cap_sys_module
+- cap_sys_rawio
+- cap_sys_chroot
+- cap_sys_ptrace
+- cap_sys_pacct
+- cap_sys_admin
+- cap_sys_boot
+- cap_sys_nice
+- cap_sys_resource
+- cap_sys_time
+- cap_sys_tty_config
+- cap_mknod
+- cap_lease
+- cap_audit_write
+- cap_audit_control
+- cap_setfcap
+- cap_mac_override
+- cap_mac_admin
+- cap_syslog
+- cap_wake_alarm
+- cap_block_suspend
+- cap_audit_read+ep
+ansible_system_capabilities_enforced: 'True'
+ansible_system_vendor: To Be Filled By O.E.M.
+ansible_tap101i0:
+  active: true
+  device: tap101i0
+  macaddress: 1e:96:1b:96:ba:59
+  mtu: 1500
+  promisc: true
+  speed: 10
+  type: ether
+ansible_tap101i1:
+  active: true
+  device: tap101i1
+  macaddress: 86:68:a5:4b:44:63
+  mtu: 1500
+  promisc: true
+  speed: 10
+  type: ether
+ansible_tap106i0:
+  active: true
+  device: tap106i0
+  macaddress: 0a:e1:14:25:65:d0
+  mtu: 1500
+  promisc: true
+  speed: 10
+  type: ether
+ansible_tap108i0:
+  active: true
+  device: tap108i0
+  macaddress: b6:d5:75:7d:68:b7
+  mtu: 1500
+  promisc: true
+  speed: 10
+  type: ether
+ansible_tap111i0:
+  active: true
+  device: tap111i0
+  macaddress: 7a:24:9f:67:1a:ef
+  mtu: 1500
+  promisc: true
+  speed: 10
+  type: ether
+ansible_uptime_seconds: 4671528
+ansible_user_dir: /root
+ansible_user_gecos: root
+ansible_user_gid: 0
+ansible_user_id: root
+ansible_user_shell: /bin/bash
+ansible_user_uid: 0
+ansible_userspace_architecture: x86_64
+ansible_userspace_bits: '64'
+ansible_virtualization_role: host
+ansible_virtualization_type: kvm
+ansible_vmbr0:
+  active: true
+  device: vmbr0
+  id: 8000.a8a1591554f9
+  interfaces:
+  - enp4s0
+  - tap101i0
+  ipv4:
+    address: 176.9.120.60
+    broadcast: ''
+    netmask: 255.255.255.255
+    network: 176.9.120.60
+  ipv6:
+  - address: fe80::aaa1:59ff:fe15:54f9
+    prefix: '64'
+    scope: link
+  macaddress: a8:a1:59:15:54:f9
+  mtu: 1500
+  promisc: false
+  stp: false
+  type: bridge
+ansible_vmbr1:
+  active: true
+  device: vmbr1
+  id: 8000.8668a54b4463
+  interfaces:
+  - tap106i0
+  - tap111i0
+  - tap108i0
+  - tap101i1
+  ipv6:
+  - address: fe80::c09e:87ff:fe86:93da
+    prefix: '64'
+    scope: link
+  macaddress: 86:68:a5:4b:44:63
+  mtu: 1500
+  promisc: false
+  stp: false
+  type: bridge
+gather_subset:
+- all
+module_setup: true

@@ -1,0 +1,4 @@
+[domains]
+govac.de ansible_ssh_host=176.9.120.60 domain=govac.de
+#toni-media.de ansible_ssh_host=2a01:4f8:151:7422:98bf:b27b:a53a:b801
+hyconcept.de ansible_ssh_host=2a01:4f8:151:7422:b586:e6b4:9cae:75c1 domain=hyconcept.de

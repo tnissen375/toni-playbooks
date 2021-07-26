@@ -2,7 +2,7 @@
 #All hosts with python 3 // Get rid of deprecation warning
 ansible_python_interpreter: /usr/bin/python3
 
-domain: "yd2m.de"
+domain: "hyconcept.de"
 lets_encrypt_mail: "jidumailer@gmail.com"
 lego_api_token: !vault |
           $ANSIBLE_VAULT;1.2;AES256;lego
@@ -23,8 +23,6 @@ lego_api_token: !vault |
 # Role certificates
 #
 existing_certs: 'false'
-#certificates_dir: "{{ inventory_dir }}/group_vars/certs"
-#certificates: [wildcard]
 
 ntp_manage_config: true
 ntp_timezone: Europe/Berlin
